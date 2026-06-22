@@ -52,33 +52,6 @@ API is available at `http://localhost:8080/api`
 | `GET /api/health` | Health check                       |
 | `GET /api/schedule` | Run all 4 stages, return report  |
 
----
-
-### 2. Run the Angular frontend (dev)
-
-```bash
-cd campus-scheduler-ui
-npm install
-ng serve
-```
-
-Open `http://localhost:4200` — the Angular app calls `http://localhost:8080/api`.
-
----
-
-### 3. Production build (optional)
-
-Build Angular into the Spring Boot static folder so a single JAR serves everything:
-
-```bash
-cd campus-scheduler-ui
-ng build --configuration=production --output-path=../campus-scheduler/src/main/resources/static
-
-cd ../campus-scheduler
-mvn package
-java -jar target/scheduler-1.0.0.jar
-# Visit http://localhost:8080
-```
 
 ---
 
