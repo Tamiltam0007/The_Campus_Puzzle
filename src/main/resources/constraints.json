@@ -1,0 +1,83 @@
+{
+  "classes": [
+    {"id": "B124-MON-AM",   "name": "B124 Group 1 (Mon 09-12)",    "students": 30, "professor_id": "FARID",     "duration_hours": 3},
+    {"id": "B124-MON-PM",   "name": "B124 Group 2 (Mon 12-15)",    "students": 30, "professor_id": "FARID",     "duration_hours": 3},
+    {"id": "B124-WED-AM",   "name": "B124 Group 3 (Wed 09-12)",    "students": 30, "professor_id": "FARID",     "duration_hours": 3},
+    {"id": "B124-WED-PM",   "name": "B124 Group 4 (Wed 12-15)",    "students": 30, "professor_id": "FARID",     "duration_hours": 3},
+    {"id": "M501-FRI",      "name": "M501 Module (Fri 10-13)",      "students": 35, "professor_id": "FARID",     "duration_hours": 3},
+    {"id": "MOD-ALEX",      "name": "Alexander Module",             "students": 25, "professor_id": "ALEX",      "duration_hours": 2},
+    {"id": "MOD-YASMIN",    "name": "Yasmin Module",                "students": 25, "professor_id": "YASMIN",    "duration_hours": 2},
+    {"id": "MOD-LEILA",     "name": "Leila Module",                 "students": 28, "professor_id": "LEILA",     "duration_hours": 2},
+    {"id": "MOD-JON",       "name": "Jonathan Module",              "students": 30, "professor_id": "JON",       "duration_hours": 3},
+    {"id": "MOD-NAOMI-A",   "name": "Naomi Group A (Mon 09-13)",   "students": 25, "professor_id": "NAOMI",     "duration_hours": 4},
+    {"id": "MOD-NAOMI-B",   "name": "Naomi Group B (Mon 13-17)",   "students": 25, "professor_id": "NAOMI",     "duration_hours": 4},
+    {"id": "MOD-NAOMI-C",   "name": "Naomi Group C (Tue 12-18)",   "students": 25, "professor_id": "NAOMI",     "duration_hours": 6},
+    {"id": "MOD-JAMES-A",   "name": "James Class A (Tue 09-12)",   "students": 30, "professor_id": "JAMES",     "duration_hours": 3},
+    {"id": "MOD-JAMES-B",   "name": "James Class B (Wed 09-12)",   "students": 30, "professor_id": "JAMES",     "duration_hours": 3},
+    {"id": "MOD-SHIRIN-B",  "name": "Shirin Berlin Group",          "students": 36, "professor_id": "SHIRIN",    "duration_hours": 4},
+    {"id": "MOD-SHIRIN-P",  "name": "Shirin Potsdam Group",         "students": 35, "professor_id": "SHIRIN",    "duration_hours": 4},
+    {"id": "MOD-MINH-A",    "name": "Minh Group A",                 "students": 25, "professor_id": "MINH",      "duration_hours": 3},
+    {"id": "MOD-MINH-B",    "name": "Minh Group B",                 "students": 25, "professor_id": "MINH",      "duration_hours": 3},
+    {"id": "MOD-CHARLOTTE", "name": "Charlotte Module",             "students": 36, "professor_id": "CHARLOTTE", "duration_hours": 4},
+    {"id": "MOD-BILAL",     "name": "Bilal Module",                 "students": 40, "professor_id": "BILAL",     "duration_hours": 3},
+    {"id": "MOD-REZA",      "name": "Reza Module",                  "students": 28, "professor_id": "REZA",      "duration_hours": 3},
+    {"id": "MOD-DAVID-A",   "name": "David Session A (Mon 16-19)", "students": 30, "professor_id": "DAVID",     "duration_hours": 3},
+    {"id": "MOD-DAVID-B",   "name": "David Session B (Tue AM)",    "students": 30, "professor_id": "DAVID",     "duration_hours": 3},
+    {"id": "MOD-STEFAN",    "name": "Stefan Muller Module",         "students": 22, "professor_id": "STEFAN",    "duration_hours": 3},
+    {"id": "MOD-VIKTOR",    "name": "Viktoria Module",              "students": 30, "professor_id": "VIKTORIA",  "duration_hours": 4},
+    {"id": "MOD-LAURA",     "name": "Laura Module (Thu)",           "students": 34, "professor_id": "LAURA",     "duration_hours": 5}
+  ],
+  "rooms": [
+    {"id": "D003", "name": "Berlin Dessauer D003",    "capacity": 46},
+    {"id": "D004", "name": "Berlin Dessauer D004",    "capacity": 77},
+    {"id": "D005", "name": "Berlin Dessauer D005",    "capacity": 34},
+    {"id": "D104", "name": "Berlin Dessauer D104",    "capacity": 36},
+    {"id": "D105", "name": "Berlin Dessauer D105 PC", "capacity": 31},
+    {"id": "D207", "name": "Berlin Dessauer D207",    "capacity": 22},
+    {"id": "D208", "name": "Berlin Dessauer D208",    "capacity": 41},
+    {"id": "D303", "name": "Berlin Dessauer D303",    "capacity": 37},
+    {"id": "D304", "name": "Berlin Dessauer D304",    "capacity": 53},
+    {"id": "D305", "name": "Berlin Dessauer D305",    "capacity": 42},
+    {"id": "P006", "name": "Potsdam Room 6",          "capacity": 50},
+    {"id": "P007", "name": "Potsdam Room 7",          "capacity": 36},
+    {"id": "P008", "name": "Potsdam Room 8",          "capacity": 36},
+    {"id": "P009", "name": "Potsdam Room 9",          "capacity": 23},
+    {"id": "P010", "name": "Potsdam Room 10",         "capacity": 34},
+    {"id": "P012", "name": "Potsdam Room 12",         "capacity": 36},
+    {"id": "P-AUD","name": "Potsdam Auditorium",      "capacity": 60},
+    {"id": "P-MAC","name": "Potsdam MacPool",         "capacity": 25}
+  ],
+  "time_slots": [
+    "MON-08:00","MON-09:00","MON-10:00","MON-12:00","MON-13:00","MON-14:00","MON-16:00","MON-17:00",
+    "TUE-09:00","TUE-12:00","TUE-13:00","TUE-15:00","TUE-16:00",
+    "WED-08:00","WED-09:00","WED-12:00","WED-13:00","WED-14:00","WED-15:00","WED-16:00",
+    "THU-08:00","THU-14:00","THU-15:00",
+    "FRI-10:00","FRI-12:00","FRI-13:00","FRI-16:00","FRI-17:00"
+  ],
+  "student_groups": {
+    "GRP-B124": {
+      "name": "B124 Module Students",
+      "classes": ["B124-MON-AM","B124-MON-PM","B124-WED-AM","B124-WED-PM","M501-FRI"]
+    },
+    "GRP-NAOMI": {
+      "name": "Naomi Students",
+      "classes": ["MOD-NAOMI-A","MOD-NAOMI-B","MOD-NAOMI-C"]
+    },
+    "GRP-JAMES": {
+      "name": "James Students",
+      "classes": ["MOD-JAMES-A","MOD-JAMES-B"]
+    },
+    "GRP-SHIRIN": {
+      "name": "Shirin Students (both campuses)",
+      "classes": ["MOD-SHIRIN-B","MOD-SHIRIN-P"]
+    },
+    "GRP-MINH": {
+      "name": "Minh Students",
+      "classes": ["MOD-MINH-A","MOD-MINH-B"]
+    },
+    "GRP-DAVID": {
+      "name": "David Students",
+      "classes": ["MOD-DAVID-A","MOD-DAVID-B"]
+    }
+  }
+}
